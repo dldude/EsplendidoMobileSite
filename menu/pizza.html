@@ -1,0 +1,666 @@
+<!DOCTYPE html> 
+   <html lang="en"> 
+   <head>
+      <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+      <title>Esplendido Mexican Cuisine</title> 
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+      <!--Custom Theme needs to be completed
+      <link rel="stylesheet" href="themes/Esplendido-RedYellowGreen.min.css" />
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css" />
+      -->
+      <link rel="stylesheet" href="../css/main.css" />
+      <script src="http://code.jquery.com/jquery-1.5.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+   </head>
+<body> 
+	<div data-role="page" id="pizzamenu" data-title="Pizza Menu | Esplendido Mexican Cuisine">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="index.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Pizza Menu</h2>
+			<ul data-role="listview">
+            	<li data-role="list-divider"><h3>Build Your Own Pizza</h3></li>
+				<li><a href="#thincrust">Thin Crust</a></li>
+                <li><a href="#round">Hand Tossed Round</a></li>
+                <li><a href="#square">Deep Dish Square</a></li>
+                <li><a href="#chicago">Chicago</a></li>
+				<li data-role="list-divider"><h3>Signature Pizzas</h3></li>
+				<li><a href="#specialpizza">Special</a></li>
+                <li><a href="#deluxepizza">Deluxe</a></li>
+                <li><a href="#hawaiianpizza">Hawaiian</a></li>
+                <li><a href="#steakpizza">Steak</a></li>
+				<li><a href="#steakpotatopizza">Steak &amp; Potato</a></li>
+                <li><a href="#bltpizza">BLT</a></li>
+                <li><a href="#greekpizza">Greek</a></li>
+                <li><a href="#mexicanpizza">Mexican</a></li>
+			</ul>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    
+    <!--Thin Crust-->
+    <div data-role="page" id="thincrust" data-title="Thin Crust Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2 class="no-bottom-padding-margin">Thin Crust</h2>
+            <div class="ui-grid-b">
+				<div class="ui-block-a">
+                	<h4 class="no-margin-padding"><br />Sizes</h4>
+                </div>
+				<div class="ui-block-b text-center">
+                	<h4 class="no-margin-padding"><br />Cheese</h4>
+                </div>
+                <div class="ui-block-c text-center">
+                	<h4 class="no-margin-padding">Add<br />Toppings</h4>
+                </div>
+                <div class="ui-block-a">
+                    Small <div class="small-italic">6 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $6.99
+                </div>
+                <div class="ui-block-c text-center">
+                    $1.00
+                </div>
+                <div class="ui-block-a">
+                    Large <div class="small-italic">10 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $8.99
+                </div>
+                <div class="ui-block-c text-center">
+                	$1.50
+                </div>
+			</div><!-- /grid-b -->
+            <br />
+            <div data-role="collapsible" data-collapsed="true" data-theme="a" data-content-theme="d">
+   				<h3>Toppings</h3>
+   				<p>Pepperoni, Ham, Bacon, Ground Beef, Italian Sausage, Shredded Chicken, Beans, Mushrooms, Onions, Green Peppers, Hot Peppers, Jalapenos, Black Olives, Green Olives, Tomatoes, Pineapple, Feta Cheese, Anchovies</p>
+			</div>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Thin Crust-->
+    
+    <!--Hand Tossed Round-->
+    <div data-role="page" id="round" data-title="Hand Tossed Round Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+            <h2 class="no-bottom-padding-margin">Hand Tossed Round</h2>
+            <div class="ui-grid-b">
+				<div class="ui-block-a">
+                	<h4 class="no-margin-padding"><br />Sizes</h4>
+                </div>
+				<div class="ui-block-b text-center">
+                	<h4 class="no-margin-padding"><br />Cheese</h4>
+                </div>
+                <div class="ui-block-c text-center">
+                	<h4 class="no-margin-padding">Add<br />Toppings</h4>
+                </div>
+                <div class="ui-block-a">
+                    Small <div class="small-italic">6 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $6.99
+                </div>
+                <div class="ui-block-c text-center">
+                    $1.00
+                </div>
+                <div class="ui-block-a">
+                    Large <div class="small-italic">10 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $8.99
+                </div>
+                <div class="ui-block-c text-center">
+                	$1.50
+                </div>
+			</div><!-- /grid-b -->
+            <br />
+            <div data-role="collapsible" data-collapsed="true" data-theme="a" data-content-theme="d">
+   				<h3>Toppings</h3>
+   				<p>Pepperoni, Ham, Bacon, Ground Beef, Italian Sausage, Shredded Chicken, Beans, Mushrooms, Onions, Green Peppers, Hot Peppers, Jalapenos, Black Olives, Green Olives, Tomatoes, Pineapple, Feta Cheese, Anchovies</p>
+			</div>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /-Hand Tossed Round-->
+    
+    <!--Deep Disk Square-->
+    <div data-role="page" id="square" data-title="Deep Dish Square Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+            <h2 class="no-bottom-padding-margin">Deep Dish Square</h2>
+            <div class="ui-grid-b">
+				<div class="ui-block-a">
+                	<h4 class="no-margin-padding"><br />Sizes</h4>
+                </div>
+				<div class="ui-block-b text-center">
+                	<h4 class="no-margin-padding"><br />Cheese</h4>
+                </div>
+                <div class="ui-block-c text-center">
+                	<h4 class="no-margin-padding">Add<br />Toppings</h4>
+                </div>
+                <div class="ui-block-a">
+                    Small <div class="small-italic">6 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $6.99
+                </div>
+                <div class="ui-block-c text-center">
+                    $1.00
+                </div>
+                <div class="ui-block-a">
+                    Large <div class="small-italic">10 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $8.99
+                </div>
+                <div class="ui-block-c text-center">
+                	$1.50
+                </div>
+			</div><!-- /grid-b -->
+            <br />
+            <div data-role="collapsible" data-collapsed="true" data-theme="a" data-content-theme="d">
+   				<h3>Toppings</h3>
+   				<p>Pepperoni, Ham, Bacon, Ground Beef, Italian Sausage, Shredded Chicken, Beans, Mushrooms, Onions, Green Peppers, Hot Peppers, Jalapenos, Black Olives, Green Olives, Tomatoes, Pineapple, Feta Cheese, Anchovies</p>
+			</div>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /-Deep Dish Square-->
+    
+    <!--Chicago-->
+    <div data-role="page" id="chicago" data-title="Chicago Style Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+            <h2 class="no-bottom-padding-margin">Chicago Style</h2>
+            <div class="ui-grid-b">
+				<div class="ui-block-a">
+                	<h4 class="no-margin-padding"><br />Sizes</h4>
+                </div>
+				<div class="ui-block-b text-center">
+                	<h4 class="no-margin-padding"><br />Cheese</h4>
+                </div>
+                <div class="ui-block-c text-center">
+                	<h4 class="no-margin-padding">Add<br />Toppings</h4>
+                </div>
+                <div class="ui-block-a">
+                    Double Crust <div class="small-italic">8 Pieces</div>
+                </div>
+				<div class="ui-block-b text-center">
+                    $13.99
+                </div>
+                <div class="ui-block-c text-center">
+                    $2.00
+                </div>
+			</div><!-- /grid-b -->
+            <br />
+            <div data-role="collapsible" data-collapsed="true" data-theme="a" data-content-theme="d">
+   				<h3>Toppings</h3>
+   				<p>Pepperoni, Ham, Bacon, Ground Beef, Italian Sausage, Shredded Chicken, Beans, Mushrooms, Onions, Green Peppers, Hot Peppers, Jalapenos, Black Olives, Green Olives, Tomatoes, Pineapple, Feta Cheese, Anchovies</p>
+			</div>
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /-Deep Dish Square-->
+    
+    <!--Special-->
+    <div data-role="page" id="specialpizza" data-title="Special Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Special</h2>
+            <p>Cheese, pepperoni, ham, mushrooms, onions, and green peppers</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$10.99<br />$14.99<br />$21.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Special-->
+    
+    <!--Deluxe-->
+    <div data-role="page" id="deluxepizza" data-title="Deluxe Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Deluxe</h2>
+            <p>Cheese, pepperoni, ham, mushrooms, onions, green peppers, black olives, Italian sausage, and anchovies</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Deluxe-->
+    
+    <!--Hawaiian-->
+    <div data-role="page" id="hawaiianpizza" data-title="Hawaiian Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Hawaiian</h2>
+            <p>Cheese, ham, onions, bacon, and pineapple</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Hawaiian-->
+    
+    <!--Steak-->
+    <div data-role="page" id="steakpizza" data-title="Steak Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Steak</h2>
+            <p>Cheese, steak, onions, mushrooms, and creamy Italian dressing</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Steak-->
+    
+    <!--Steak and Potato-->
+    <div data-role="page" id="steakpotatopizza" data-title="Steak and Potato Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Steak and Potato</h2>
+            <p>Cheese, steak, chopped baked potato, and creamy Italian dressing</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Steak and Potato-->
+    
+    <!--BLT-->
+    <div data-role="page" id="bltpizza" data-title="BLT Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>BLT</h2>
+            <p>Cheese, bacon, lettuce, tomato and creamy Italian dressing</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /BLT-->
+    
+    <!--Greek-->
+    <div data-role="page" id="greekpizza" data-title="Greek Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Greek</h2>
+            <p>Cheese, black olives, tomatoes, onions, and feta cheese</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Greek-->
+    
+    <!--Mexican-->
+    <div data-role="page" id="mexicanpizza" data-title="Mexican Pizza | Pizza Menu">
+		<div data-role="header">
+        	<div class="header-button-container">
+            	<a href="pizza.html" data-role="button" data-icon="arrow-l" data-rel="back">Back</a>
+            </div>
+        	<div class="text-center">
+            	<img src="../images/esplendido_logo-250x100.png" />
+            </div>
+        	<div class="ui-grid-b">
+				<div class="ui-block-a header-content text-left"><div class="header-content-left"><a href="http://www.esplendidomc.com/didosnet/" rel="external">View Full Site</a></div></div>
+				<div class="ui-block-b text-center">
+                	<a href="http://www.facebook.com/esplendidomexicancuisine" target="_blank" rel="external" title="Esplendido's on Facebook"><img src="../images/facebook_icon.png" title="Esplendido's on Facebook" alt="Facebook" /></a><a href="http://www.youtube.com/user/DidosNet/videos" target="_blank" rel="external" title="Esplendido's YouTube Channel DidosNet"><img src="../images/youtube_icon.png" class="header-youtube-icon" title="Esplendido;s YouTube Channel DidosNet" alt="YouTube" /></a>
+                </div>
+                <div class="ui-block-c header-content text-right">
+                <div class="header-content-right">(586) 739-1070</div>
+                </div>
+			</div><!-- /grid-b -->
+		</div><!-- /header -->
+		<div data-role="content">
+			<h2>Mexican</h2>
+            <p>Hot sauce, mozzarella, cheddar and white Mexican cheese topped with seasoned ground beef, onions, tomatoes, black olives, green peppers, crushed corn chips, and lettuce</p>
+            <div class="ui-grid-a">
+				<div class="ui-block-a"><h4 class="no-margin-padding">Small</h4><h4 class="no-margin-padding">Large</h4><h4 class="no-margin-padding">Chicago</h4></div>
+				<div class="ui-block-b"><div class="text-right">$12.99<br />$15.99<br />$25.99</div></div>
+			</div><!-- /grid-a -->
+		</div><!-- /content -->
+		<div data-role="footer" data-position="fixed">
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="/" data-ajax="false" data-icon="home">Home</a></li>
+					<li><a href="/menu/index.html" data-ajax="false" data-icon="grid">Menu</a></li>
+					<li><a href="/specials/index.html" data-ajax="false" data-icon="star">Specials</a></li>
+                    <li><a href="/contact-us/index.html" data-ajax="false" data-icon="info">Contact Us</a></li>
+                    <li><a href="/more/index.html" data-ajax="false" data-icon="arrow-u">More...</a></li>
+				</ul>
+			</div><!-- /navbar -->
+		</div><!-- /header -->
+	</div><!-- /page -->
+    <!-- /Mexican-->
+    
+</body>
+</html>
