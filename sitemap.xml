@@ -2,75 +2,75 @@
  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0">
     <url>
-        <loc>http://m.esplendidomc.com/index.html</loc>
+        <loc>http://www.esplendidomc.com/index.html</loc>
         <mobile:mobile/>
     </url>
 	<url>
-        <loc>http://m.esplendidomc.com/contact-us/index.html</loc>
+        <loc>http://www.esplendidomc.com/contact-us/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/events/index.html</loc>
+        <loc>http://www.esplendidomc.com/events/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/hours/index.html</loc>
+        <loc>http://www.esplendidomc.com/hours/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/index.html</loc>
+        <loc>http://www.esplendidomc.com/menu/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/appetizers.html</loc>
+        <loc>http://www.esplendidomc.com/menu/appetizers.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/burgers.html</loc>
+        <loc>http://www.esplendidomc.com/menu/burgers.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/catering.html</loc>
+        <loc>http://www.esplendidomc.com/menu/catering.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/deserts.html</loc>
+        <loc>http://www.esplendidomc.com/menu/deserts.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/drinks.html</loc>
+        <loc>http://www.esplendidomc.com/menu/drinks.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/kids.html</loc>
+        <loc>http://www.esplendidomc.com/menu/kids.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/mexican.html</loc>
+        <loc>http://www.esplendidomc.com/menu/mexican.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/pitas-and-subs.html</loc>
+        <loc>http://www.esplendidomc.com/menu/pitas-and-subs.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/pizza.html</loc>
+        <loc>http://www.esplendidomc.com/menu/pizza.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/menu/soups-and-salads.html</loc>
+        <loc>http://www.esplendidomc.com/menu/soups-and-salads.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/more/index.html</loc>
+        <loc>http://www.esplendidomc.com/more/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/newsletter/index.html</loc>
+        <loc>http://www.esplendidomc.com/newsletter/index.html</loc>
         <mobile:mobile/>
     </url>
     <url>
-        <loc>http://m.esplendidomc.com/specials/index.html</loc>
+        <loc>http://www.esplendidomc.com/specials/index.html</loc>
         <mobile:mobile/>
     </url>
 </urlset>
